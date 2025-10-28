@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body class="p-5" id="body">
+    <div class="card mx-auto border border-1 p-4 col-12 rounded shadow col-lg-4 bg-light">
+        <h2 class="text-success text-center pb-4">Sign Up</h2>
+        <input type="text" placeholder="Name" class="form-control">
+        <input type="email" placeholder="Email" class="form-control mt-3">
+        <input type="password" placeholder="Password" class="form-control my-3">
+        <form>
+            <div class="my-3">
+                <input type="checkbox" class="form-check-input mt-0" id="donor" name="donor" value="donor">
+                <label for="donor"> I am a Donor</label><br>
+            </div>
+
+            <div class="mb-3">
+                <input type="checkbox" class="form-check-input" id="Receiver" name="Receiver" value="Receiver">
+                <label for="Receiver"> I am a Receiver</label><br>
+            </div>
+        </form>
+        <button class="btn btn-warning p-2 text-white fw-semibold">Create Account</button>
+        <p class="mt-2 text-center fw-semibold">Already have an account? <a href="#">Login</a></p>
+        
+    </div>
+</body>
+
+</html>

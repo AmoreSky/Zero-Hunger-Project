@@ -1,0 +1,33 @@
+body {
+    overflow: hidden;
+}
+
+#body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+        url(images/roommates-with-delicious-food-medium-shot-min.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 100vh;
+}
+ /* .big{
+    font-size: 60px;
+    font-weight: bolder;
+ } */
+
+@media only screen and (max-width:600px) {
+    #navbar {
+        width: 100% !important;
+    }
+
+    #body {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+            url(images/father-daughter-enjoying-thanksgiving-day-dinner-min\ \(1\).jpg);
+        background-position: cover;
+        background-size: contain;
+        height: 100vh;
+    }
+    button{
+        width: 150px;
+    
+    }
+}
