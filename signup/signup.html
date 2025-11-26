@@ -13,9 +13,9 @@
 <body class="p-5" id="body">
     <div class="card mx-auto border border-1 p-4 col-12 rounded shadow col-lg-4 bg-light">
         <h2 class="text-success text-center pb-4">Sign Up</h2>
-        <input type="text" placeholder="Name" class="form-control">
-        <input type="email" placeholder="Email" class="form-control mt-3">
-        <input type="password" placeholder="Password" class="form-control my-3">
+        <input type="text" placeholder="Name" class="form-control" id="name">
+        <input type="email" placeholder="Email" class="form-control mt-3" id="email">
+        <input type="password" placeholder="Password" class="form-control my-3" id="password">
         <form>
             <div class="my-3">
                 <input type="checkbox" class="form-check-input mt-0" id="donor" name="donor" value="donor">
@@ -27,8 +27,8 @@
                 <label for="Receiver"> I am a Receiver</label><br>
             </div>
         </form>
-        <button class="btn btn-warning p-2 text-white fw-semibold">Create Account</button>
-        <p class="mt-2 text-center fw-semibold">Already have an account? <a href="#">Login</a></p>
+        <button class="btn btn-warning p-2 text-white fw-semibold" onclick="create()">Create Account</button>
+        <p class="mt-2 text-center fw-semibold">Already have an account? <a href="../signin/signin.html">Login</a></p>
         
     </div>
 </body>
