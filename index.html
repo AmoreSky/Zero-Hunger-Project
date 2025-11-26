@@ -1,20 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="homepage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </head>
-<body id="body" class="p-5">
-    <div class="card mx-auto mt-5 border border-1 p-4 col-12 rounded shadow col-lg-4 bg-light">   
-        <h2 class="text-success text-center pb-4">Login</h2>
-        <input type="email" placeholder="Email" class="form-control">
-        <input type="password" placeholder="Password" class="form-control my-3">
-        <button class="btn btn-success p-2">Login</button>
-        <p class="my-4 text-center fw-semibold">Don't have an account yet? <a href="#">Sign up</a></p>
-        <button class="btn btn-outline-warning fw-semibold mb-3"><img src="images/search.png" alt="" width="20px" class="me-2"> Login with Google</button>
+
+<body class="bg-success">
+    <nav class="navbar navbar-expand-lg bg-success bg-gradient px-lg-5">
+        <div class="container-fluid">
+            <div class="container d-flex justify-content-between w-50" id="navbar">
+                <a class="navbar-brand text-white" href="#"> <img src="images/dish.png" width="50px"> Zero Hunger</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav  mb-2 mb-lg-0 w-75 d-flex justify-content-evenly">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="donate/donate.html">Donate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#">Find Food</a>
+                    </li>
+                    <button class="btn btn-success">Logout</button>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="body">
+        <div class="container mx-auto my-auto text-light text-center h-100 d-flex flex-column justify-content-center">
+            <h1>Share Food. Reduce Waste.</h1>
+            <h1>Feed Someone Today.</h1>
+            <h5>Connect those with surplus food with those who need it</h5>
+            <div class="mt-5">
+                <button class="btn btn-success px-lg-5 fs-5 fw-semibold">Donate Food</button>
+                <button class="btn btn-warning ms-3 px-lg-5 fs-5 text-white fw-semibold">Find Food</button>
+            </div>
+        </div>
     </div>
+
+    <!-- <div class="mt-5 pt-5 px-lg-5">
+        <div class="row container text-light">
+            <div class="col-6">
+                <h1 class="big">Share Food.</h1>
+                <h1 class="big">Reduce Waste.</h1>
+                <h1 class="big">Feed Someone Today.</h1>
+                <p class="fs-4 fw-light">Connect people with surplus food with those who need it</p>
+            </div>
+            <div class="col-4">
+                <img src="images/roommates-with-delicious-food-medium-shot-min.jpg" alt="" width="600px" class="rounded">
+            </div>
+        </div>
+        
+    </div> -->
 </body>
+<script type="module" src="script.js"></script>
+
 </html>
