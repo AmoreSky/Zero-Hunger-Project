@@ -4,7 +4,7 @@ body {
 
 #body {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
-        url(images/roommates-with-delicious-food-medium-shot-min.jpg);
+        url(/images/roommates-with-delicious-food-medium-shot-min.jpg);
     background-position: center;
     background-size: contain;
     height: 100vh;
@@ -12,6 +12,7 @@ body {
 }
 a:link{
     text-decoration: none;
+    
 }
 a:hover{
     font-size: large;

@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div>
-                <img src="../images/give-food.png" alt="Give food" class="hero-image">
+                <img src="/images/give-food.png" alt="Give food" class="hero-image">
             </div>
         </div>
 
@@ -63,15 +63,16 @@
                 <h4 class="mb-3">Give a meal</h4>
                 <form id="donateForm">
                     <div >
-                        <img src="#" alt="" id="displayImage">
+                        <img src="#" alt="" id="displayImage" width="250PX">
+                    </div>
+                    <div class="my-2 form-row">
+                        <label for="Image" class="btn btn-info text-white">Upload an image</label>
+                        <input type="file" id="Image" class="d-none" accept="image/jpeg, image/png, image/jpg">
                     </div>
                     <div class="mb-2 form-row">
-                        <label for="image" class="btn btn-info text-white">Upload an image</label>
-                        <input type="file" name="image" id="image" class="d-none" accept="image/jpeg, image/png, image/jpg">
-                    </div>
-                    <div class="mb-2 form-row">
-                        <input class="form-control" name="meals" type="number" min="1" placeholder="Number of meals"
+                        <input class="form-control" name="meal number" type="number" min="1" placeholder="Number of meals"
                             required>
+                        <input class="form-control" name="name" placeholder="Meal name" required>
                         <input class="form-control" name="location" placeholder="Pickup location" required>
                     </div>
                     <div class="mb-3">
@@ -99,7 +100,7 @@
         </div>
 
     </div>
-    <script src="donate.js"></script>
+    <script type="module" src="donate.js"></script>
 </body>
 
 </html>

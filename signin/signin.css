@@ -1,6 +1,6 @@
 #body {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
-        url(images/father-daughter-enjoying-thanksgiving-day-dinner-min\ \(1\).jpg);
+        url(/images/father-daughter-enjoying-thanksgiving-day-dinner-min\ \(1\).jpg);
     background-position: center;
     background-size: contain;
     height: 100vh;
@@ -8,5 +8,7 @@
 
 a:link{
     text-decoration: none;
-    color: black;
+}
+a:hover{
+    font-size: large;
 }
